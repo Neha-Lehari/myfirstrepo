@@ -37,17 +37,31 @@ body
     position: relative; 
 }
 
-/* style icon */
 .inner-addon .glyphicon {
   position: absolute;
   padding: 10px;
   pointer-events: none;
 }
-
-/* align icon */
-.left-addon .glyphicon  { left:  0px;}
 .right-addon .glyphicon { right: 0px;}
-
-/* add padding  */
-.left-addon input  { padding-left:  30px; }
 .right-addon input { padding-right: 30px; }
+
+#login,#Forgot{
+    background: transparent;
+    border: 2px solid white;
+}
+
+#login:hover{
+    position: relative;
+    background-color:blue;
+    color: bisque;
+    top: 0.5%;
+    left: 0.5%;
+}
+
+#Forgot:hover{
+    position: relative;
+    background-color:orangered;
+    color: black;
+    top: 0.5%;
+    left: 0.5%;
+}
