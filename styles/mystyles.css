@@ -1,0 +1,67 @@
+#login_box_inner {
+	width: 25%;
+	position: fixed;
+	top: 25%;
+	left: 35%;
+	padding-right: 5%;
+	padding-left: 5%;
+	background:rgba(0,0,0,0.2);
+	height: 60%;
+    display: block;
+    border-radius: 5px;
+}
+#box_inner {
+	padding-top: 90px;
+	padding-bottom: 50px;
+	}
+body
+{
+	background-image:url(../images/ws_Roads_1920x1080.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	
+}
+
+#login_box_inner #box_inner #text1 {
+	font-size: 24px;
+	text-align:center;
+    box-shadow:100px blur spread #333333;
+
+}
+#username::before{
+	content:url(images/download.png);
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+.right-addon .glyphicon { right: 0px;}
+.right-addon input { padding-right: 30px; }
+
+#login,#Forgot{
+    background: transparent;
+    border: 2px solid white;
+}
+
+#login:hover{
+    position: relative;
+    background-color:blue;
+    color: bisque;
+    top: 0.5%;
+    left: 0.5%;
+}
+
+#Forgot:hover{
+    position: relative;
+    background-color:orangered;
+    color: black;
+    top: 0.5%;
+    left: 0.5%;
+}
